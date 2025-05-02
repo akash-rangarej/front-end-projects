@@ -1,0 +1,442 @@
+*{
+margin :0px;
+padding:0px;
+font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 4380px;
+    background-color: rgb(0, 0, 0);
+}
+/* home page */
+/* background image */
+.back{
+    opacity: 0.45;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    box-shadow:  inset -100px -150px rgb(0, 0, 0);
+    margin: -23px 0px -10px 0px;
+    /* background: rgb(0 0 0 / 40%); */
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+}
+
+/* navigation bar */
+#logo{
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    /* width: 100%; */
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+}
+#btn{
+    border: 0.5px solid black;
+    border-radius: 9px;
+    position: absolute;
+    left:1100px;
+    top:30px;
+    background-color: rgb(211, 29, 29);
+    color: aliceblue;
+    padding: 10px;
+    width: 80px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(186, 42, 42);
+}
+.enghin{
+    position: absolute;
+    border-radius: 5px;
+    top: 30px;
+    left: 935px;
+    background-color: black;
+    border: 1px solid rgb(186, 183, 183);
+    color: aliceblue;
+    padding: 10px;
+    width:140px;
+    opacity: 0.7;
+}
+
+h1{
+    color: aliceblue;
+    position: absolute;
+    top:244px;
+    left: 183px;
+    font-style: bold;
+    font-size: 45px;
+    font-weight: 1100;
+}
+
+pre{
+    color: aliceblue;
+    position: absolute;
+    top:330px;
+    left: 200px;
+    text-align: center;
+    font-weight: 500;
+    font-size:20px;
+    }
+
+#em{
+    position: absolute;
+    top: 443px;
+    left: 340px;
+    height: 43px;
+    width: 300px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    border-radius: 5px;
+    border: 1px solid rgb(171, 167, 167);
+}
+
+#bt{
+position: absolute;
+top: 443px;
+left: 655px;
+height: 45px;
+width: 200px;
+background-color: red;
+color: white;
+font-weight: 400;
+font-size: 21px;
+border-radius: 5px;
+border: 1px solid black;
+}
+#bt:hover{
+    background-color: rgb(213, 41, 41);
+    cursor: pointer;
+}
+
+hr{
+    position: absolute;
+    top:677px;
+    width: 100%;
+    border: 1px solid black;
+   background-color: rgb(50, 48, 48);
+   height: 8px;
+   margin: 0px;
+}
+
+/* second page */
+#im1{
+    position: absolute;
+    width:550px;
+    top: 750px;
+    left: 630px;
+
+}
+
+#vid1{
+    position: absolute;
+    width: 396px;
+    top: 835px;
+    left: 705px;
+    z-index: -1;
+}
+#h2{
+    position: absolute;
+    top:910px;
+    left: 40px;
+    text-align: left;
+}
+#text2{
+    position:absolute;
+    top:990px;
+    left: 5px;
+    text-align: left;
+}
+
+#hr2{
+    position: absolute;
+    top:1250px;
+    width: 100%;
+    border: 1px solid black;
+   background-color: rgb(50, 48, 48);
+   height: 8px;
+   margin: 0px;
+}
+
+/* third page */
+
+#im2{
+    position: absolute;
+    width: 545px;
+    top: 1324px;
+    left: 23px;
+}
+
+#sm_box{
+ position: absolute;
+ border: 2px solid rgb(111, 106, 106);
+ top: 1610px;
+ left: 110px;
+ width: 370px;
+ height: 85px;
+ background-color: black;
+ border-radius: 12px;
+}
+
+#b_im{
+    width: 50px;
+    padding: 12px;
+}
+#b_text1{
+position: relative;
+top: -84px;
+left: -55px;
+font-size: 15px;
+}
+
+#b_text2{
+position: relative;
+top: -120px;
+left: -65px;
+color: blue;
+font-size: 13px;
+}
+
+#h3{
+ position: absolute;
+ top:1020px;
+ left:350px;
+ text-align: left;
+ margin: 0px;
+}
+
+#text3{
+    position: absolute;
+    text-align: left;
+    top: 1600px;
+    left: 630px;
+}
+
+#hr3{
+    position:absolute;
+    top: 1800px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(54, 51, 51);
+    height: 8px;
+    margin: 0px;
+}
+
+/* fourth page */
+ 
+#im3{
+    position: absolute;
+    top:1860px;
+    left: 620px;
+    width: 550px;
+}
+
+#vid2{
+position: absolute;
+height: 300px;
+left: 725px;
+top:1830px;
+width: 330px;
+z-index: -1;
+}
+
+#h4{
+position: absolute;
+top: 1950px;
+left: 40px;
+}
+
+#text4{
+    position: absolute;
+    top: 2030px;
+    left: 5px; 
+    text-align: left;
+}
+
+#hr4{
+    position: absolute;
+    top: 2350px;
+}
+
+/* fifth page */
+
+#im4{
+    position: absolute;
+    width: 550px;
+    top: 2420px;
+}
+#h5{
+    position: absolute;
+   top: 2500px;
+   left: 600px;
+}
+
+#text5{
+    position: absolute;
+    top:2600px;
+    left: 560px;
+    text-align: left;
+}
+
+#hr5{
+  position: absolute;
+  top: 2900px;
+}
+
+/* sixth page */
+#h6{
+    position: absolute;
+    top: 2980px;
+     left: 290px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:3070px;
+    border: 1px solid black;
+    width: 100%;
+}
+.items{
+    padding: 0px 23px;
+    display: flex;
+    width: 90%;
+    margin: 3.5px;
+    border: 1px solid black;
+    color: aliceblue;
+    background-color: rgb(46, 46, 46);
+    height: 88px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 300;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.symb{
+    font-size: 60px;
+    font-weight: 200;
+    height: 80px;
+}
+
+.items:hover{
+    background-color: rgb(70, 70, 70);
+    transition-duration: infinite;
+    transition-behavior: smooth;
+
+}
+.items:active{
+   background-color:rgb(70, 70, 70);
+
+}
+
+.symb:active{
+    background-color:rgb(70, 70, 70);
+    transform: rotate(45deg);
+}
+
+#text6{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 3700px;
+    left: 250px;
+}
+
+#bt2{
+    position:absolute;
+    top: 3750px;
+    left: 655px;
+    height: 45px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#bt2:hover{
+    background-color: rgb(213, 41, 41);
+    cursor: pointer;
+}
+
+
+#em2{
+position:absolute;
+top: 3750px;
+left: 340px;
+height: 43px;
+width: 300px;
+background-color: black;
+color: rgb(255, 255, 255);
+opacity: 0.8;
+border-radius: 5px;
+border: 1px solid rgb(171, 167, 167);
+}
+
+#hr6{
+    position:absolute;
+    top: 3870px;
+}
+
+/* seventh page or last page*/
+
+.container2{
+    position: absolute;
+    top:4000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0px auto auto 0px;
+    padding: 20px;
+}
+#foot_t1{
+color: rgb(184, 187, 189);
+position: absolute;
+top: 3970px;
+left: 68px;
+}
+
+#foot_t2{
+    color: rgb(184, 187, 189);
+}
+
+.texts{
+    width: 170px;
+    border: 2px solid black;
+    margin:10px 50px;
+    
+   
+}
+.texts a{
+    color: rgb(184, 187, 189);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.enghin2{
+    position: absolute;
+    border-radius: 5px;
+    top: 4230px;
+    left: 65px;
+    background-color: black;
+    border: 1px solid rgb(186, 183, 183);
+    color: aliceblue;
+    padding: 10px;
+    width:140px;
+    opacity: 0.7;
+}
